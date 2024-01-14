@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Author: Wei Kit Phang
-Date: 11 Jan 2024
-
+Date: 03 Jan 2024
 """
 
 
@@ -21,7 +20,7 @@ import pandas as pd
 
 # Set the working directory to a specific path
 os.getcwd() # check current work directory
-os.chdir('C:/Users/User/Desktop/Self-project/Sentiment Analysis NLTK XGBoost SHAP')
+os.chdir('C:/YOUR/WORK/DIRECTORY')
 
 train_df = pd.read_csv('Data/train.csv',encoding='latin1');
 test_df = pd.read_csv('Data/test.csv',encoding='latin1');
